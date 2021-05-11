@@ -1,11 +1,3 @@
-package hilosjava;
-
-import java.util.InputMismatchException;
-import java.util.Scanner;
-
-public class MainsitoHilos {
-
-
     /*
 PROGRAMADOR: JOSUE DANIEL TORRES SANTOS
 TOPICOS AVANZADOS DE PROGRAMACION
@@ -15,6 +7,14 @@ Implemente un programa en java que utilice hilos. El tamaño del vector es desde
 El llenado del vector es aleatorio. Realizar tres hilos, el hilo 1 muestra la suma de los elementos de un vector,
 el hilo 2 la suma de los cuadrados de los elementos del vector y un tercer hilo la media. Muestre los resultados.
      */
+
+package hilosjava;
+
+import java.util.InputMismatchException;
+import java.util.Scanner;
+
+public class MainsitoHilos {
+    
     public static void main(String[] args) {
         Arrays uno, dos, tres;
         Scanner gg = new Scanner(System.in);
